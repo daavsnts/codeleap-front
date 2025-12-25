@@ -1,4 +1,4 @@
-# Welcome to Codeleap Front-end Challenge!
+# Welcome to my CodeLeap Front-end Challenge!
 
 A modern, production-ready project using React Router.
 
