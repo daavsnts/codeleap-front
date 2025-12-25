@@ -51,6 +51,7 @@ export function PostCard({ post, itsCurrentUserPost }: PostCardProps) {
 						<div className="flex gap-4">
 							<Button
 								variant="default"
+                className="hover:text-gray-200 cursor-pointer"
 								onClick={() => setToggleDeleteDialog(true)}
 							>
 								<Trash2 />
@@ -58,6 +59,7 @@ export function PostCard({ post, itsCurrentUserPost }: PostCardProps) {
 
 							<Button
 								variant="default"
+                className="hover:text-gray-200 cursor-pointer"
 								onClick={() => setToggleEditDialog(true)}
 							>
 								<Pencil />

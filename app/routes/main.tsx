@@ -22,7 +22,7 @@ export default function Main() {
 	});
 
 	return (
-		<div className="w-full flex flex-col bg-white sm:max-w-2xl md:max-w-3xl lg:max-w-4xl xl:max-w-5xl">
+		<div className="w-full flex flex-col bg-white max-w-full sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px]">
 			<div className="p-4 bg-primary text-white">
 				<h1 className="text-2xl font-bold">Codeleap Network</h1>
 			</div>

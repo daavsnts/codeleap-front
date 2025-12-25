@@ -13,7 +13,7 @@ const buttonVariants = {
 		"bg-success text-white rounded-lg px-6 py-2 hover:bg-success-hover transition disabled:bg-gray-400 disabled:cursor-not-allowed cursor-pointer",
 	outline:
 		"bg-white text-black border border-gray-300 rounded-lg px-6 py-2 hover:bg-gray-100 transition disabled:bg-gray-400 disabled:cursor-not-allowed cursor-pointer",
-	default: "",
+	default: "cursor-pointer",
 };
 
 import { Loader2 } from "lucide-react";
