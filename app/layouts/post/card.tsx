@@ -46,8 +46,8 @@ export function PostCard({ post, itsCurrentUserPost }: PostCardProps) {
 	return (
 		<Fragment key={id}>
 			<div className="border border-gray-300 rounded-lg flex flex-col gap-4">
-				<div className="p-4 bg-primary text-white flex justify-between items-center rounded-t-lg">
-					<h1 className="text-lg font-bold truncate max-w-55">{title}</h1>
+				<div className="p-4 bg-primary text-white flex justify-between items-center rounded-t-lg gap-4">
+					<h1 className="text-lg font-bold truncate">{title}</h1>
 
 					{itsCurrentUserPost && (
 						<div className="flex gap-4">

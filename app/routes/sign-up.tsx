@@ -34,8 +34,8 @@ export default function SignUp() {
 
 	return (
 		<div className="w-full h-full flex justify-center items-center p-4">
-			<div className="p-4 rounded-xl bg-white border border-gray-300 h-fit flex flex-col gap-4">
-				<h1 className="text-xl font-bold">Welcome to CodeLeap network!</h1>
+			<div className="p-4 rounded-xl bg-white border border-gray-300 h-fit flex flex-col gap-4 w-full sm:max-w-[400px]">
+				<h1 className="text-xl font-bold">Welcome to CodeLeap Network!</h1>
 
 				<form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4">
 					<div className="flex flex-col gap-1">

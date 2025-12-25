@@ -29,7 +29,8 @@ export function PostForm({
 	submitLoading,
 	setSubmitLoading,
 }: PostFormProps) {
-	const { register, handleSubmit, watch, setValue } = useForm<PostInputs>();
+	const { register, handleSubmit, watch, setValue, reset } =
+		useForm<PostInputs>();
 
 	const liveForm = watch();
 
@@ -70,6 +71,7 @@ export function PostForm({
 				toast.success(
 					`Post ${editingPost ? "edited" : "created"} successfully!`,
 				);
+				reset();
 				if (editingPost) onCloseEdit?.();
 			})
 			.catch((err) => {
@@ -100,6 +102,7 @@ export function PostForm({
 			<Textarea
 				label="Content"
 				placeholder="Content here"
+				className="min-h-35"
 				{...register("content", { required: true })}
 			/>
 

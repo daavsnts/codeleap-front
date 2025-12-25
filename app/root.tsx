@@ -15,7 +15,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 			</head>
 			<body>
 				<Providers>{children}</Providers>
-				<Toaster richColors />
+				<Toaster />
 				<ScrollRestoration />
 				<Scripts />
 			</body>
