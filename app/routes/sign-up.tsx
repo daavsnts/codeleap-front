@@ -8,8 +8,8 @@ import Button from "~/components/button";
 
 export function meta({}: Route.MetaArgs) {
 	return [
-		{ title: "Sign Up - Codeleap Network" },
-		{ name: "description", content: "Welcome to Codeleap Network!" },
+		{ title: "Sign Up - CodeLeap Network" },
+		{ name: "description", content: "Welcome to CodeLeap Network!" },
 	];
 }
 
